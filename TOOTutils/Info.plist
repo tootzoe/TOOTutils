@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_TOOTutils._udp</string>
+	</array>
+	<key>TOOT_GMS_SVR_KEY</key>
+	<string>$(TOOT_GMS_SVR_KEY)</string>
+	<key>TOOT_TEST_KEY</key>
+	<string>$(TOOT_TEST_KEY)</string>
+	<key>TOOT_TEST_KEY2</key>
+	<string>$(TOOT_TEST_KEY2)</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+</dict>
+</plist>

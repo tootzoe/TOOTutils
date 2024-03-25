@@ -1,0 +1,1202 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430770722B8BAECE00935801 /* TFetchIpAddr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430770712B8BAECE00935801 /* TFetchIpAddr.swift */; };
+		430770732B8BAECE00935801 /* TFetchIpAddr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430770712B8BAECE00935801 /* TFetchIpAddr.swift */; };
+		433224642B81060E005FA62E /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 433224632B81060E005FA62E /* CocoaMQTT */; };
+		433224722B810755005FA62E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433224712B810755005FA62E /* Assets.xcassets */; };
+		433224752B810755005FA62E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433224742B810755005FA62E /* Preview Assets.xcassets */; };
+		4332247A2B8107C7005FA62E /* TChooseBlendModeWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F9CB62B6D30B300C41CAE /* TChooseBlendModeWnd.swift */; };
+		4332247B2B8107C7005FA62E /* TColorWid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B094372B6CA1480071F68B /* TColorWid.swift */; };
+		4332247C2B8107C7005FA62E /* TColorBlendMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A90E4D2B8098E700B84601 /* TColorBlendMainWnd.swift */; };
+		4332247D2B8107C7005FA62E /* TBlendModeDat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F9CB42B6CBEFF00C41CAE /* TBlendModeDat.swift */; };
+		4332247E2B8107C7005FA62E /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F9CB82B6D324C00C41CAE /* FlowLayout.swift */; };
+		4332247F2B8107C7005FA62E /* TOOTutilsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B094252B6BCA4C0071F68B /* TOOTutilsApp.swift */; };
+		433224802B8107C7005FA62E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B094272B6BCA4C0071F68B /* ContentView.swift */; };
+		433224812B8107CD005FA62E /* TMqttMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F9CBD2B6DE68D00C41CAE /* TMqttMainWnd.swift */; };
+		433224822B8107CD005FA62E /* TLampCmdWid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A90E2D2B7E244E00B84601 /* TLampCmdWid.swift */; };
+		433224832B8107CD005FA62E /* TMqttModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F9CC22B6DF07D00C41CAE /* TMqttModel.swift */; };
+		433224852B8107E5005FA62E /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 433224842B8107E5005FA62E /* CocoaMQTT */; };
+		433224882B8225CF005FA62E /* TMulticastMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433224872B8225CF005FA62E /* TMulticastMainWnd.swift */; };
+		4332248A2B8225F5005FA62E /* TMulticastMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433224872B8225CF005FA62E /* TMulticastMainWnd.swift */; };
+		4332248D2B8231DB005FA62E /* TLiveVideoMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4332248C2B8231DB005FA62E /* TLiveVideoMainWnd.swift */; };
+		4332248F2B8231FF005FA62E /* TLiveVideoMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4332248C2B8231DB005FA62E /* TLiveVideoMainWnd.swift */; };
+		4352CF622BA5F85E00AD00C4 /* DynamicRTSPServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF5D2BA5F85E00AD00C4 /* DynamicRTSPServer.cpp */; };
+		4352CF632BA5F85E00AD00C4 /* DynamicRTSPServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF5D2BA5F85E00AD00C4 /* DynamicRTSPServer.cpp */; };
+		4352CF642BA5F85E00AD00C4 /* live555MediaServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF5F2BA5F85E00AD00C4 /* live555MediaServer.cpp */; };
+		4352CF652BA5F85E00AD00C4 /* live555MediaServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF5F2BA5F85E00AD00C4 /* live555MediaServer.cpp */; };
+		4352CF6B2BA5FAA200AD00C4 /* TGstreamerMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF6A2BA5FAA200AD00C4 /* TGstreamerMainWnd.swift */; };
+		4352CF6C2BA5FAA200AD00C4 /* TGstreamerMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF6A2BA5FAA200AD00C4 /* TGstreamerMainWnd.swift */; };
+		4352CF702BA5FB5F00AD00C4 /* TLive555MainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF6F2BA5FB5F00AD00C4 /* TLive555MainWnd.swift */; };
+		4352CF712BA5FB5F00AD00C4 /* TLive555MainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF6F2BA5FB5F00AD00C4 /* TLive555MainWnd.swift */; };
+		4352CF772BA726B500AD00C4 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF762BA726B500AD00C4 /* swiftgen.yml */; };
+		4352CF782BA726B500AD00C4 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF762BA726B500AD00C4 /* swiftgen.yml */; };
+		4352CF7C2BA7374100AD00C4 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF7B2BA7374000AD00C4 /* XCAssets+Generated.swift */; };
+		4352CF7D2BA7374100AD00C4 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF7B2BA7374000AD00C4 /* XCAssets+Generated.swift */; };
+		4352CF812BA73CC600AD00C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF7F2BA73CC600AD00C4 /* Localizable.strings */; };
+		4352CF822BA73CC600AD00C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF7F2BA73CC600AD00C4 /* Localizable.strings */; };
+		4352CF852BA742FE00AD00C4 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF842BA742FE00AD00C4 /* Strings+Generated.swift */; };
+		4352CF862BA742FE00AD00C4 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF842BA742FE00AD00C4 /* Strings+Generated.swift */; };
+		4352CF892BA7442300AD00C4 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF872BA7442300AD00C4 /* Localizable.stringsdict */; };
+		4352CF8A2BA7442300AD00C4 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF872BA7442300AD00C4 /* Localizable.stringsdict */; };
+		4352CF912BA74B9500AD00C4 /* Fonts+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF902BA74B9500AD00C4 /* Fonts+Generated.swift */; };
+		4352CF922BA74B9500AD00C4 /* Fonts+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF902BA74B9500AD00C4 /* Fonts+Generated.swift */; };
+		4352CF932BA7532700AD00C4 /* KhmerOSDangrek.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF8F2BA74B0F00AD00C4 /* KhmerOSDangrek.ttf */; };
+		4352CF942BA7532700AD00C4 /* KhmerOSDangrek.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF8F2BA74B0F00AD00C4 /* KhmerOSDangrek.ttf */; };
+		4352CF952BA7532A00AD00C4 /* Kh-Battambang.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF8E2BA74A7C00AD00C4 /* Kh-Battambang.ttf */; };
+		4352CF962BA7532B00AD00C4 /* Kh-Battambang.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF8E2BA74A7C00AD00C4 /* Kh-Battambang.ttf */; };
+		4352CF982BA756A500AD00C4 /* KhmerOSMoul.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF972BA7566600AD00C4 /* KhmerOSMoul.ttf */; };
+		4352CF992BA756A600AD00C4 /* KhmerOSMoul.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF972BA7566600AD00C4 /* KhmerOSMoul.ttf */; };
+		436FA4902B88FDC20041084C /* TOOTConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 436FA48F2B88FDC20041084C /* TOOTConfig.xcconfig */; };
+		436FA4912B88FDC20041084C /* TOOTConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 436FA48F2B88FDC20041084C /* TOOTConfig.xcconfig */; };
+		436FA4932B8901880041084C /* TReadPrivateConfKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436FA4922B8901880041084C /* TReadPrivateConfKeys.swift */; };
+		436FA4942B8906F20041084C /* TReadPrivateConfKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436FA4922B8901880041084C /* TReadPrivateConfKeys.swift */; };
+		436FA4962B8998F00041084C /* TBleMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436FA4952B8998F00041084C /* TBleMainWnd.swift */; };
+		436FA4972B8998F00041084C /* TBleMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436FA4952B8998F00041084C /* TBleMainWnd.swift */; };
+		436FA49B2B899B400041084C /* ProductConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 436FA49A2B899B400041084C /* ProductConfig.xcconfig */; };
+		436FA49C2B899B400041084C /* ProductConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 436FA49A2B899B400041084C /* ProductConfig.xcconfig */; };
+		436FA49E2B8A28C00041084C /* TBleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436FA49D2B8A28C00041084C /* TBleCoordinator.swift */; };
+		436FA49F2B8A28C00041084C /* TBleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436FA49D2B8A28C00041084C /* TBleCoordinator.swift */; };
+		437403902B9F6323004A6441 /* TFolderMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4374038F2B9F6323004A6441 /* TFolderMonitor.swift */; };
+		437403912B9F6323004A6441 /* TFolderMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4374038F2B9F6323004A6441 /* TFolderMonitor.swift */; };
+		437403982BA01F84004A6441 /* tfifo.c in Sources */ = {isa = PBXBuildFile; fileRef = 437403972BA01F84004A6441 /* tfifo.c */; };
+		437403992BA01F84004A6441 /* tfifo.c in Sources */ = {isa = PBXBuildFile; fileRef = 437403972BA01F84004A6441 /* tfifo.c */; };
+		4374039B2BA032F5004A6441 /* twritefifo.c in Sources */ = {isa = PBXBuildFile; fileRef = 4374039A2BA032F5004A6441 /* twritefifo.c */; };
+		4374039C2BA032F5004A6441 /* twritefifo.c in Sources */ = {isa = PBXBuildFile; fileRef = 4374039A2BA032F5004A6441 /* twritefifo.c */; };
+		4374039F2BA04C78004A6441 /* EskimoSays.c in Sources */ = {isa = PBXBuildFile; fileRef = 4374039E2BA04C78004A6441 /* EskimoSays.c */; };
+		437403A02BA04C78004A6441 /* EskimoSays.c in Sources */ = {isa = PBXBuildFile; fileRef = 4374039E2BA04C78004A6441 /* EskimoSays.c */; };
+		437F3D1E2BAC9726005496C9 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 437F3D1D2BAC9726005496C9 /* GoogleMaps */; };
+		437F3D202BAC9726005496C9 /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 437F3D1F2BAC9726005496C9 /* GoogleMapsBase */; };
+		437F3D222BAC9726005496C9 /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 437F3D212BAC9726005496C9 /* GoogleMapsCore */; };
+		437F3D242BAC9766005496C9 /* TGoogleMapMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F3D232BAC9766005496C9 /* TGoogleMapMainWnd.swift */; };
+		437F3D252BAC9827005496C9 /* TGoogleMapMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F3D232BAC9766005496C9 /* TGoogleMapMainWnd.swift */; };
+		438F9CB52B6CBEFF00C41CAE /* TBlendModeDat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F9CB42B6CBEFF00C41CAE /* TBlendModeDat.swift */; };
+		438F9CB72B6D30B300C41CAE /* TChooseBlendModeWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F9CB62B6D30B300C41CAE /* TChooseBlendModeWnd.swift */; };
+		438F9CB92B6D324C00C41CAE /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F9CB82B6D324C00C41CAE /* FlowLayout.swift */; };
+		438F9CBE2B6DE68D00C41CAE /* TMqttMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F9CBD2B6DE68D00C41CAE /* TMqttMainWnd.swift */; };
+		438F9CC32B6DF07D00C41CAE /* TMqttModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F9CC22B6DF07D00C41CAE /* TMqttModel.swift */; };
+		439F50892B94AE7D0097FA39 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 439F50882B94AE7D0097FA39 /* FirebaseMessaging */; };
+		439F508B2B94AEA00097FA39 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 439F508A2B94AE9F0097FA39 /* GoogleService-Info.plist */; };
+		439F508D2B94B9A70097FA39 /* TAppMainMsgHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F508C2B94B9A70097FA39 /* TAppMainMsgHandler.swift */; };
+		439F508F2B94BB050097FA39 /* TPushNotifiMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F508E2B94BB050097FA39 /* TPushNotifiMainWnd.swift */; };
+		439F50942B95C8850097FA39 /* OAuth2 in Frameworks */ = {isa = PBXBuildFile; productRef = 439F50932B95C8850097FA39 /* OAuth2 */; };
+		439F50962B96DDE90097FA39 /* TAudioMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F50952B96DDE90097FA39 /* TAudioMainWnd.swift */; };
+		439F50972B96DDE90097FA39 /* TAudioMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F50952B96DDE90097FA39 /* TAudioMainWnd.swift */; };
+		439F509A2B96DEB80097FA39 /* TAudioHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F50992B96DEB80097FA39 /* TAudioHandler.swift */; };
+		439F509C2B96EBE10097FA39 /* TPushNotifiMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F508E2B94BB050097FA39 /* TPushNotifiMainWnd.swift */; };
+		439F509E2B96EDD30097FA39 /* TAudioHandlerMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F509D2B96EDD30097FA39 /* TAudioHandlerMac.swift */; };
+		43A90E2E2B7E244F00B84601 /* TLampCmdWid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A90E2D2B7E244E00B84601 /* TLampCmdWid.swift */; };
+		43A90E4E2B8098E700B84601 /* TColorBlendMainWnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A90E4D2B8098E700B84601 /* TColorBlendMainWnd.swift */; };
+		43B094262B6BCA4C0071F68B /* TOOTutilsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B094252B6BCA4C0071F68B /* TOOTutilsApp.swift */; };
+		43B094282B6BCA4C0071F68B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B094272B6BCA4C0071F68B /* ContentView.swift */; };
+		43B0942A2B6BCA4F0071F68B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B094292B6BCA4F0071F68B /* Assets.xcassets */; };
+		43B0942D2B6BCA4F0071F68B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B0942C2B6BCA4F0071F68B /* Preview Assets.xcassets */; };
+		43B094382B6CA1480071F68B /* TColorWid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B094372B6CA1480071F68B /* TColorWid.swift */; };
+		43DB6A2A2BA5F71F00102EC4 /* libtlive555.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43DB6A292BA5F71F00102EC4 /* libtlive555.xcframework */; };
+		43DB6A2B2BA5F71F00102EC4 /* libtlive555.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43DB6A292BA5F71F00102EC4 /* libtlive555.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43DB6A2D2BA5F73500102EC4 /* libtlive555.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43DB6A292BA5F71F00102EC4 /* libtlive555.xcframework */; };
+		43DB6A2E2BA5F73500102EC4 /* libtlive555.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43DB6A292BA5F71F00102EC4 /* libtlive555.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43DB6A2C2BA5F72000102EC4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				43DB6A2B2BA5F71F00102EC4 /* libtlive555.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43DB6A2F2BA5F73500102EC4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				43DB6A2E2BA5F73500102EC4 /* libtlive555.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		430770712B8BAECE00935801 /* TFetchIpAddr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFetchIpAddr.swift; sourceTree = "<group>"; };
+		4332246B2B810753005FA62E /* TOOTutilMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOOTutilMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		433224712B810755005FA62E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		433224742B810755005FA62E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		433224762B810755005FA62E /* TOOTutilMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TOOTutilMac.entitlements; sourceTree = "<group>"; };
+		433224862B8222E6005FA62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		433224872B8225CF005FA62E /* TMulticastMainWnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMulticastMainWnd.swift; sourceTree = "<group>"; };
+		4332248B2B82267B005FA62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4332248C2B8231DB005FA62E /* TLiveVideoMainWnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLiveVideoMainWnd.swift; sourceTree = "<group>"; };
+		433224902B85F491005FA62E /* TOOTutils.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TOOTutils.entitlements; sourceTree = "<group>"; };
+		4352CF5D2BA5F85E00AD00C4 /* DynamicRTSPServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicRTSPServer.cpp; sourceTree = "<group>"; };
+		4352CF5E2BA5F85E00AD00C4 /* DynamicRTSPServer.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DynamicRTSPServer.hh; sourceTree = "<group>"; };
+		4352CF5F2BA5F85E00AD00C4 /* live555MediaServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = live555MediaServer.cpp; sourceTree = "<group>"; };
+		4352CF602BA5F85E00AD00C4 /* version.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = version.hh; sourceTree = "<group>"; };
+		4352CF662BA5F88B00AD00C4 /* live555MediaServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = live555MediaServer.h; sourceTree = "<group>"; };
+		4352CF6A2BA5FAA200AD00C4 /* TGstreamerMainWnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGstreamerMainWnd.swift; sourceTree = "<group>"; };
+		4352CF6F2BA5FB5F00AD00C4 /* TLive555MainWnd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLive555MainWnd.swift; sourceTree = "<group>"; };
+		4352CF762BA726B500AD00C4 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		4352CF7B2BA7374000AD00C4 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+		4352CF802BA73CC600AD00C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4352CF832BA73E9F00AD00C4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4352CF842BA742FE00AD00C4 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		4352CF882BA7442300AD00C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		4352CF8C2BA744DA00AD00C4 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
+		4352CF8E2BA74A7C00AD00C4 /* Kh-Battambang.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kh-Battambang.ttf"; sourceTree = "<group>"; };
+		4352CF8F2BA74B0F00AD00C4 /* KhmerOSDangrek.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KhmerOSDangrek.ttf; sourceTree = "<group>"; };
+		4352CF902BA74B9500AD00C4 /* Fonts+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fonts+Generated.swift"; sourceTree = "<group>"; };
+		4352CF972BA7566600AD00C4 /* KhmerOSMoul.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KhmerOSMoul.ttf; sourceTree = "<group>"; };
+		4352CF9A2BA7573000AD00C4 /* km-KH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "km-KH"; path = "km-KH.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4352CF9B2BA7573000AD00C4 /* km-KH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "km-KH"; path = "km-KH.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
+		436FA48F2B88FDC20041084C /* TOOTConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = TOOTConfig.xcconfig; sourceTree = "<group>"; };
+		436FA4922B8901880041084C /* TReadPrivateConfKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TReadPrivateConfKeys.swift; sourceTree = "<group>"; };
+		436FA4952B8998F00041084C /* TBleMainWnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBleMainWnd.swift; sourceTree = "<group>"; };
+		436FA49A2B899B400041084C /* ProductConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProductConfig.xcconfig; sourceTree = "<group>"; };
+		436FA49D2B8A28C00041084C /* TBleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBleCoordinator.swift; sourceTree = "<group>"; };
+		4374038F2B9F6323004A6441 /* TFolderMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFolderMonitor.swift; sourceTree = "<group>"; };
+		437403942BA01F83004A6441 /* TOOTutils-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TOOTutils-Bridging-Header.h"; sourceTree = "<group>"; };
+		437403952BA01F83004A6441 /* TOOTutilMac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TOOTutilMac-Bridging-Header.h"; sourceTree = "<group>"; };
+		437403962BA01F84004A6441 /* tfifo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tfifo.h; sourceTree = "<group>"; };
+		437403972BA01F84004A6441 /* tfifo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tfifo.c; sourceTree = "<group>"; };
+		4374039A2BA032F5004A6441 /* twritefifo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = twritefifo.c; sourceTree = "<group>"; };
+		4374039D2BA04C78004A6441 /* EskimoSays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EskimoSays.h; sourceTree = "<group>"; };
+		4374039E2BA04C78004A6441 /* EskimoSays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EskimoSays.c; sourceTree = "<group>"; };
+		437F3D232BAC9766005496C9 /* TGoogleMapMainWnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGoogleMapMainWnd.swift; sourceTree = "<group>"; };
+		438F9CB42B6CBEFF00C41CAE /* TBlendModeDat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBlendModeDat.swift; sourceTree = "<group>"; };
+		438F9CB62B6D30B300C41CAE /* TChooseBlendModeWnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TChooseBlendModeWnd.swift; sourceTree = "<group>"; };
+		438F9CB82B6D324C00C41CAE /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		438F9CBD2B6DE68D00C41CAE /* TMqttMainWnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMqttMainWnd.swift; sourceTree = "<group>"; };
+		438F9CC22B6DF07D00C41CAE /* TMqttModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMqttModel.swift; sourceTree = "<group>"; };
+		439F508A2B94AE9F0097FA39 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		439F508C2B94B9A70097FA39 /* TAppMainMsgHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAppMainMsgHandler.swift; sourceTree = "<group>"; };
+		439F508E2B94BB050097FA39 /* TPushNotifiMainWnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPushNotifiMainWnd.swift; sourceTree = "<group>"; };
+		439F50952B96DDE90097FA39 /* TAudioMainWnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAudioMainWnd.swift; sourceTree = "<group>"; };
+		439F50992B96DEB80097FA39 /* TAudioHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAudioHandler.swift; sourceTree = "<group>"; };
+		439F509D2B96EDD30097FA39 /* TAudioHandlerMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAudioHandlerMac.swift; sourceTree = "<group>"; };
+		43A90E2D2B7E244E00B84601 /* TLampCmdWid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLampCmdWid.swift; sourceTree = "<group>"; };
+		43A90E4D2B8098E700B84601 /* TColorBlendMainWnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TColorBlendMainWnd.swift; sourceTree = "<group>"; };
+		43B094222B6BCA4C0071F68B /* TOOTutils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOOTutils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B094252B6BCA4C0071F68B /* TOOTutilsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOOTutilsApp.swift; sourceTree = "<group>"; };
+		43B094272B6BCA4C0071F68B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43B094292B6BCA4F0071F68B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43B0942C2B6BCA4F0071F68B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43B094372B6CA1480071F68B /* TColorWid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TColorWid.swift; sourceTree = "<group>"; };
+		43DB6A292BA5F71F00102EC4 /* libtlive555.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libtlive555.xcframework; path = ../../multiplatform/libtlive555/Deliverables/Release/libtlive555/libtlive555.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		433224682B810753005FA62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DB6A2D2BA5F73500102EC4 /* libtlive555.xcframework in Frameworks */,
+				433224852B8107E5005FA62E /* CocoaMQTT in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B0941F2B6BCA4C0071F68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DB6A2A2BA5F71F00102EC4 /* libtlive555.xcframework in Frameworks */,
+				439F50942B95C8850097FA39 /* OAuth2 in Frameworks */,
+				437F3D1E2BAC9726005496C9 /* GoogleMaps in Frameworks */,
+				437F3D202BAC9726005496C9 /* GoogleMapsBase in Frameworks */,
+				439F50892B94AE7D0097FA39 /* FirebaseMessaging in Frameworks */,
+				433224642B81060E005FA62E /* CocoaMQTT in Frameworks */,
+				437F3D222BAC9726005496C9 /* GoogleMapsCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		430770742B8BAF4B00935801 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				436FA4922B8901880041084C /* TReadPrivateConfKeys.swift */,
+				430770712B8BAECE00935801 /* TFetchIpAddr.swift */,
+				438F9CB82B6D324C00C41CAE /* FlowLayout.swift */,
+				4374038F2B9F6323004A6441 /* TFolderMonitor.swift */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		4332246C2B810753005FA62E /* TOOTutilMac */ = {
+			isa = PBXGroup;
+			children = (
+				433224862B8222E6005FA62E /* Info.plist */,
+				433224712B810755005FA62E /* Assets.xcassets */,
+				433224762B810755005FA62E /* TOOTutilMac.entitlements */,
+				433224732B810755005FA62E /* Preview Content */,
+			);
+			path = TOOTutilMac;
+			sourceTree = "<group>";
+		};
+		433224732B810755005FA62E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				433224742B810755005FA62E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		433224892B8225D4005FA62E /* TMulticast */ = {
+			isa = PBXGroup;
+			children = (
+				433224872B8225CF005FA62E /* TMulticastMainWnd.swift */,
+			);
+			path = TMulticast;
+			sourceTree = "<group>";
+		};
+		4332248E2B8231E0005FA62E /* TLiveStream */ = {
+			isa = PBXGroup;
+			children = (
+				4332248C2B8231DB005FA62E /* TLiveVideoMainWnd.swift */,
+			);
+			path = TLiveStream;
+			sourceTree = "<group>";
+		};
+		434BAE632BB16A60002136CA /* TColorBlend */ = {
+			isa = PBXGroup;
+			children = (
+				43A90E4D2B8098E700B84601 /* TColorBlendMainWnd.swift */,
+				438F9CB42B6CBEFF00C41CAE /* TBlendModeDat.swift */,
+				43B094372B6CA1480071F68B /* TColorWid.swift */,
+				438F9CB62B6D30B300C41CAE /* TChooseBlendModeWnd.swift */,
+			);
+			path = TColorBlend;
+			sourceTree = "<group>";
+		};
+		434BAE642BB16AA1002136CA /* TGoogleMap */ = {
+			isa = PBXGroup;
+			children = (
+				437F3D232BAC9766005496C9 /* TGoogleMapMainWnd.swift */,
+			);
+			path = TGoogleMap;
+			sourceTree = "<group>";
+		};
+		4352CF612BA5F85E00AD00C4 /* tlive555 */ = {
+			isa = PBXGroup;
+			children = (
+				4352CF5D2BA5F85E00AD00C4 /* DynamicRTSPServer.cpp */,
+				4352CF5E2BA5F85E00AD00C4 /* DynamicRTSPServer.hh */,
+				4352CF5F2BA5F85E00AD00C4 /* live555MediaServer.cpp */,
+				4352CF662BA5F88B00AD00C4 /* live555MediaServer.h */,
+				4352CF602BA5F85E00AD00C4 /* version.hh */,
+			);
+			path = tlive555;
+			sourceTree = "<group>";
+		};
+		4352CF6D2BA5FAB700AD00C4 /* tgstreamer */ = {
+			isa = PBXGroup;
+			children = (
+				4352CF6A2BA5FAA200AD00C4 /* TGstreamerMainWnd.swift */,
+			);
+			path = tgstreamer;
+			sourceTree = "<group>";
+		};
+		4352CF6E2BA5FB0000AD00C4 /* tlive555 */ = {
+			isa = PBXGroup;
+			children = (
+				4352CF6F2BA5FB5F00AD00C4 /* TLive555MainWnd.swift */,
+			);
+			path = tlive555;
+			sourceTree = "<group>";
+		};
+		4352CF7A2BA7331C00AD00C4 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				4352CF842BA742FE00AD00C4 /* Strings+Generated.swift */,
+				4352CF902BA74B9500AD00C4 /* Fonts+Generated.swift */,
+				4352CF7B2BA7374000AD00C4 /* XCAssets+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		4352CF8D2BA749D200AD00C4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4352CF8F2BA74B0F00AD00C4 /* KhmerOSDangrek.ttf */,
+				4352CF972BA7566600AD00C4 /* KhmerOSMoul.ttf */,
+				4352CF8E2BA74A7C00AD00C4 /* Kh-Battambang.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		436FA4982B8998FA0041084C /* TBle */ = {
+			isa = PBXGroup;
+			children = (
+				436FA4952B8998F00041084C /* TBleMainWnd.swift */,
+				436FA49D2B8A28C00041084C /* TBleCoordinator.swift */,
+			);
+			path = TBle;
+			sourceTree = "<group>";
+		};
+		436FA4992B899A4E0041084C /* ConfigsEnv */ = {
+			isa = PBXGroup;
+			children = (
+				436FA48F2B88FDC20041084C /* TOOTConfig.xcconfig */,
+				436FA49A2B899B400041084C /* ProductConfig.xcconfig */,
+			);
+			path = ConfigsEnv;
+			sourceTree = "<group>";
+		};
+		437403922BA01EE1004A6441 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4352CF8D2BA749D200AD00C4 /* Fonts */,
+				4352CF7A2BA7331C00AD00C4 /* Generated */,
+				4352CF6E2BA5FB0000AD00C4 /* tlive555 */,
+				437403932BA01F3F004A6441 /* src */,
+				4352CF6D2BA5FAB700AD00C4 /* tgstreamer */,
+				4352CF7F2BA73CC600AD00C4 /* Localizable.strings */,
+				4352CF872BA7442300AD00C4 /* Localizable.stringsdict */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		437403932BA01F3F004A6441 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4352CF612BA5F85E00AD00C4 /* tlive555 */,
+				437403962BA01F84004A6441 /* tfifo.h */,
+				437403972BA01F84004A6441 /* tfifo.c */,
+				4374039A2BA032F5004A6441 /* twritefifo.c */,
+				4374039D2BA04C78004A6441 /* EskimoSays.h */,
+				4374039E2BA04C78004A6441 /* EskimoSays.c */,
+				437403942BA01F83004A6441 /* TOOTutils-Bridging-Header.h */,
+				437403952BA01F83004A6441 /* TOOTutilMac-Bridging-Header.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		438F9CBF2B6DE69B00C41CAE /* TMqtt */ = {
+			isa = PBXGroup;
+			children = (
+				438F9CBD2B6DE68D00C41CAE /* TMqttMainWnd.swift */,
+				43A90E2D2B7E244E00B84601 /* TLampCmdWid.swift */,
+				438F9CC22B6DF07D00C41CAE /* TMqttModel.swift */,
+			);
+			path = TMqtt;
+			sourceTree = "<group>";
+		};
+		439F50912B959A160097FA39 /* TPushNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				439F508C2B94B9A70097FA39 /* TAppMainMsgHandler.swift */,
+				439F508E2B94BB050097FA39 /* TPushNotifiMainWnd.swift */,
+			);
+			path = TPushNotifications;
+			sourceTree = "<group>";
+		};
+		439F50982B96DE2B0097FA39 /* TAudio */ = {
+			isa = PBXGroup;
+			children = (
+				439F50952B96DDE90097FA39 /* TAudioMainWnd.swift */,
+				439F50992B96DEB80097FA39 /* TAudioHandler.swift */,
+				439F509D2B96EDD30097FA39 /* TAudioHandlerMac.swift */,
+			);
+			path = TAudio;
+			sourceTree = "<group>";
+		};
+		43B094192B6BCA4C0071F68B = {
+			isa = PBXGroup;
+			children = (
+				4352CF762BA726B500AD00C4 /* swiftgen.yml */,
+				437403922BA01EE1004A6441 /* Shared */,
+				43B094242B6BCA4C0071F68B /* TOOTutils */,
+				4332246C2B810753005FA62E /* TOOTutilMac */,
+				43B094232B6BCA4C0071F68B /* Products */,
+				43B094342B6BCDD40071F68B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43B094232B6BCA4C0071F68B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43B094222B6BCA4C0071F68B /* TOOTutils.app */,
+				4332246B2B810753005FA62E /* TOOTutilMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43B094242B6BCA4C0071F68B /* TOOTutils */ = {
+			isa = PBXGroup;
+			children = (
+				433224902B85F491005FA62E /* TOOTutils.entitlements */,
+				439F508A2B94AE9F0097FA39 /* GoogleService-Info.plist */,
+				4332248B2B82267B005FA62E /* Info.plist */,
+				43B094252B6BCA4C0071F68B /* TOOTutilsApp.swift */,
+				436FA4992B899A4E0041084C /* ConfigsEnv */,
+				43B094272B6BCA4C0071F68B /* ContentView.swift */,
+				439F50912B959A160097FA39 /* TPushNotifications */,
+				434BAE632BB16A60002136CA /* TColorBlend */,
+				434BAE642BB16AA1002136CA /* TGoogleMap */,
+				439F50982B96DE2B0097FA39 /* TAudio */,
+				430770742B8BAF4B00935801 /* misc */,
+				436FA4982B8998FA0041084C /* TBle */,
+				4332248E2B8231E0005FA62E /* TLiveStream */,
+				433224892B8225D4005FA62E /* TMulticast */,
+				438F9CBF2B6DE69B00C41CAE /* TMqtt */,
+				43B094292B6BCA4F0071F68B /* Assets.xcassets */,
+				43B0942B2B6BCA4F0071F68B /* Preview Content */,
+			);
+			path = TOOTutils;
+			sourceTree = "<group>";
+		};
+		43B0942B2B6BCA4F0071F68B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43B0942C2B6BCA4F0071F68B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43B094342B6BCDD40071F68B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43DB6A292BA5F71F00102EC4 /* libtlive555.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4332246A2B810753005FA62E /* TOOTutilMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433224772B810755005FA62E /* Build configuration list for PBXNativeTarget "TOOTutilMac" */;
+			buildPhases = (
+				4352CF792BA7272D00AD00C4 /* Swiftgen */,
+				433224672B810753005FA62E /* Sources */,
+				433224682B810753005FA62E /* Frameworks */,
+				433224692B810753005FA62E /* Resources */,
+				43DB6A2F2BA5F73500102EC4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOOTutilMac;
+			packageProductDependencies = (
+				433224842B8107E5005FA62E /* CocoaMQTT */,
+			);
+			productName = TOOTutilMac;
+			productReference = 4332246B2B810753005FA62E /* TOOTutilMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43B094212B6BCA4C0071F68B /* TOOTutils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B094302B6BCA4F0071F68B /* Build configuration list for PBXNativeTarget "TOOTutils" */;
+			buildPhases = (
+				4352CF7E2BA7384C00AD00C4 /* TOOTSwiftgen */,
+				43B0941E2B6BCA4C0071F68B /* Sources */,
+				43B0941F2B6BCA4C0071F68B /* Frameworks */,
+				43B094202B6BCA4C0071F68B /* Resources */,
+				43DB6A2C2BA5F72000102EC4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOOTutils;
+			packageProductDependencies = (
+				433224632B81060E005FA62E /* CocoaMQTT */,
+				439F50882B94AE7D0097FA39 /* FirebaseMessaging */,
+				439F50932B95C8850097FA39 /* OAuth2 */,
+				437F3D1D2BAC9726005496C9 /* GoogleMaps */,
+				437F3D1F2BAC9726005496C9 /* GoogleMapsBase */,
+				437F3D212BAC9726005496C9 /* GoogleMapsCore */,
+			);
+			productName = TOOTutils;
+			productReference = 43B094222B6BCA4C0071F68B /* TOOTutils.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43B0941A2B6BCA4C0071F68B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4332246A2B810753005FA62E = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					43B094212B6BCA4C0071F68B = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+				};
+			};
+			buildConfigurationList = 43B0941D2B6BCA4C0071F68B /* Build configuration list for PBXProject "TOOTutils" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+				"km-KH",
+			);
+			mainGroup = 43B094192B6BCA4C0071F68B;
+			packageReferences = (
+				433224622B810601005FA62E /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+				439F50872B94AE7D0097FA39 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				439F50922B95C8850097FA39 /* XCRemoteSwiftPackageReference "google-auth-library-swift" */,
+				437F3D1C2BAC9726005496C9 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
+			productRefGroup = 43B094232B6BCA4C0071F68B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43B094212B6BCA4C0071F68B /* TOOTutils */,
+				4332246A2B810753005FA62E /* TOOTutilMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		433224692B810753005FA62E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436FA49C2B899B400041084C /* ProductConfig.xcconfig in Resources */,
+				4352CF822BA73CC600AD00C4 /* Localizable.strings in Resources */,
+				4352CF782BA726B500AD00C4 /* swiftgen.yml in Resources */,
+				4352CF942BA7532700AD00C4 /* KhmerOSDangrek.ttf in Resources */,
+				436FA4912B88FDC20041084C /* TOOTConfig.xcconfig in Resources */,
+				4352CF992BA756A600AD00C4 /* KhmerOSMoul.ttf in Resources */,
+				433224752B810755005FA62E /* Preview Assets.xcassets in Resources */,
+				433224722B810755005FA62E /* Assets.xcassets in Resources */,
+				4352CF962BA7532B00AD00C4 /* Kh-Battambang.ttf in Resources */,
+				4352CF8A2BA7442300AD00C4 /* Localizable.stringsdict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B094202B6BCA4C0071F68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436FA49B2B899B400041084C /* ProductConfig.xcconfig in Resources */,
+				436FA4902B88FDC20041084C /* TOOTConfig.xcconfig in Resources */,
+				439F508B2B94AEA00097FA39 /* GoogleService-Info.plist in Resources */,
+				4352CF812BA73CC600AD00C4 /* Localizable.strings in Resources */,
+				4352CF952BA7532A00AD00C4 /* Kh-Battambang.ttf in Resources */,
+				43B0942D2B6BCA4F0071F68B /* Preview Assets.xcassets in Resources */,
+				4352CF892BA7442300AD00C4 /* Localizable.stringsdict in Resources */,
+				4352CF982BA756A500AD00C4 /* KhmerOSMoul.ttf in Resources */,
+				4352CF932BA7532700AD00C4 /* KhmerOSDangrek.ttf in Resources */,
+				43B0942A2B6BCA4F0071F68B /* Assets.xcassets in Resources */,
+				4352CF772BA726B500AD00C4 /* swiftgen.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4352CF792BA7272D00AD00C4 /* Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"TOOT swiftgen run here.......\"\nswiftgen\n\n";
+		};
+		4352CF7E2BA7384C00AD00C4 /* TOOTSwiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = TOOTSwiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nswiftgen\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		433224672B810753005FA62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439F50972B96DDE90097FA39 /* TAudioMainWnd.swift in Sources */,
+				433224832B8107CD005FA62E /* TMqttModel.swift in Sources */,
+				4332247A2B8107C7005FA62E /* TChooseBlendModeWnd.swift in Sources */,
+				4352CF6C2BA5FAA200AD00C4 /* TGstreamerMainWnd.swift in Sources */,
+				4352CF862BA742FE00AD00C4 /* Strings+Generated.swift in Sources */,
+				437F3D252BAC9827005496C9 /* TGoogleMapMainWnd.swift in Sources */,
+				4352CF652BA5F85E00AD00C4 /* live555MediaServer.cpp in Sources */,
+				437403992BA01F84004A6441 /* tfifo.c in Sources */,
+				4374039C2BA032F5004A6441 /* twritefifo.c in Sources */,
+				4332247F2B8107C7005FA62E /* TOOTutilsApp.swift in Sources */,
+				4332248F2B8231FF005FA62E /* TLiveVideoMainWnd.swift in Sources */,
+				4352CF712BA5FB5F00AD00C4 /* TLive555MainWnd.swift in Sources */,
+				436FA49F2B8A28C00041084C /* TBleCoordinator.swift in Sources */,
+				430770732B8BAECE00935801 /* TFetchIpAddr.swift in Sources */,
+				436FA4942B8906F20041084C /* TReadPrivateConfKeys.swift in Sources */,
+				433224802B8107C7005FA62E /* ContentView.swift in Sources */,
+				4352CF632BA5F85E00AD00C4 /* DynamicRTSPServer.cpp in Sources */,
+				437403A02BA04C78004A6441 /* EskimoSays.c in Sources */,
+				4332247D2B8107C7005FA62E /* TBlendModeDat.swift in Sources */,
+				4352CF922BA74B9500AD00C4 /* Fonts+Generated.swift in Sources */,
+				433224822B8107CD005FA62E /* TLampCmdWid.swift in Sources */,
+				437403912B9F6323004A6441 /* TFolderMonitor.swift in Sources */,
+				4352CF7D2BA7374100AD00C4 /* XCAssets+Generated.swift in Sources */,
+				4332247E2B8107C7005FA62E /* FlowLayout.swift in Sources */,
+				436FA4972B8998F00041084C /* TBleMainWnd.swift in Sources */,
+				433224812B8107CD005FA62E /* TMqttMainWnd.swift in Sources */,
+				439F509E2B96EDD30097FA39 /* TAudioHandlerMac.swift in Sources */,
+				4332248A2B8225F5005FA62E /* TMulticastMainWnd.swift in Sources */,
+				439F509C2B96EBE10097FA39 /* TPushNotifiMainWnd.swift in Sources */,
+				4332247B2B8107C7005FA62E /* TColorWid.swift in Sources */,
+				4332247C2B8107C7005FA62E /* TColorBlendMainWnd.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B0941E2B6BCA4C0071F68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4352CF912BA74B9500AD00C4 /* Fonts+Generated.swift in Sources */,
+				437403982BA01F84004A6441 /* tfifo.c in Sources */,
+				4374039B2BA032F5004A6441 /* twritefifo.c in Sources */,
+				43B094282B6BCA4C0071F68B /* ContentView.swift in Sources */,
+				439F50962B96DDE90097FA39 /* TAudioMainWnd.swift in Sources */,
+				438F9CB92B6D324C00C41CAE /* FlowLayout.swift in Sources */,
+				438F9CB52B6CBEFF00C41CAE /* TBlendModeDat.swift in Sources */,
+				4352CF7C2BA7374100AD00C4 /* XCAssets+Generated.swift in Sources */,
+				4352CF6B2BA5FAA200AD00C4 /* TGstreamerMainWnd.swift in Sources */,
+				4352CF622BA5F85E00AD00C4 /* DynamicRTSPServer.cpp in Sources */,
+				4332248D2B8231DB005FA62E /* TLiveVideoMainWnd.swift in Sources */,
+				436FA49E2B8A28C00041084C /* TBleCoordinator.swift in Sources */,
+				430770722B8BAECE00935801 /* TFetchIpAddr.swift in Sources */,
+				437403902B9F6323004A6441 /* TFolderMonitor.swift in Sources */,
+				436FA4932B8901880041084C /* TReadPrivateConfKeys.swift in Sources */,
+				437F3D242BAC9766005496C9 /* TGoogleMapMainWnd.swift in Sources */,
+				438F9CB72B6D30B300C41CAE /* TChooseBlendModeWnd.swift in Sources */,
+				43A90E2E2B7E244F00B84601 /* TLampCmdWid.swift in Sources */,
+				43B094262B6BCA4C0071F68B /* TOOTutilsApp.swift in Sources */,
+				439F508F2B94BB050097FA39 /* TPushNotifiMainWnd.swift in Sources */,
+				4352CF702BA5FB5F00AD00C4 /* TLive555MainWnd.swift in Sources */,
+				438F9CBE2B6DE68D00C41CAE /* TMqttMainWnd.swift in Sources */,
+				4352CF852BA742FE00AD00C4 /* Strings+Generated.swift in Sources */,
+				4352CF642BA5F85E00AD00C4 /* live555MediaServer.cpp in Sources */,
+				436FA4962B8998F00041084C /* TBleMainWnd.swift in Sources */,
+				438F9CC32B6DF07D00C41CAE /* TMqttModel.swift in Sources */,
+				439F508D2B94B9A70097FA39 /* TAppMainMsgHandler.swift in Sources */,
+				433224882B8225CF005FA62E /* TMulticastMainWnd.swift in Sources */,
+				43B094382B6CA1480071F68B /* TColorWid.swift in Sources */,
+				4374039F2BA04C78004A6441 /* EskimoSays.c in Sources */,
+				439F509A2B96DEB80097FA39 /* TAudioHandler.swift in Sources */,
+				43A90E4E2B8098E700B84601 /* TColorBlendMainWnd.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4352CF7F2BA73CC600AD00C4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4352CF802BA73CC600AD00C4 /* en */,
+				4352CF832BA73E9F00AD00C4 /* zh-Hans */,
+				4352CF9A2BA7573000AD00C4 /* km-KH */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4352CF872BA7442300AD00C4 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4352CF882BA7442300AD00C4 /* en */,
+				4352CF8C2BA744DA00AD00C4 /* zh-Hant */,
+				4352CF9B2BA7573000AD00C4 /* km-KH */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		433224782B810755005FA62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436FA48F2B88FDC20041084C /* TOOTConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TOOTutilMac/TOOTutilMac.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TOOTutilMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XK724N8WG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					NO_OPENSSL,
+					"BSD=1",
+					"_FILE_OFFSET_BITS=64",
+					"_LARGEFILE_SOURCE=1",
+					"HAVE_SOCKADDR_LEN=1",
+					"SOCKLEN_T=socklen_t",
+					NEED_XLOCALE_H,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TOOTutilMac/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TOOTutil want use microphone....";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tootzoe.TOOTutilMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/src/TOOTutilMac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TOOT_TEAM_NAME = "${DEVELOPMENT_TEAM}";
+			};
+			name = Debug;
+		};
+		433224792B810755005FA62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436FA48F2B88FDC20041084C /* TOOTConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TOOTutilMac/TOOTutilMac.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TOOTutilMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XK724N8WG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NO_OPENSSL,
+					"BSD=1",
+					"_FILE_OFFSET_BITS=64",
+					"_LARGEFILE_SOURCE=1",
+					"HAVE_SOCKADDR_LEN=1",
+					"SOCKLEN_T=socklen_t",
+					NEED_XLOCALE_H,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TOOTutilMac/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TOOTutil want use microphone....";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tootzoe.TOOTutilMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/src/TOOTutilMac-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TOOT_TEAM_NAME = "${DEVELOPMENT_TEAM}";
+			};
+			name = Release;
+		};
+		43B0942E2B6BCA4F0071F68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43B0942F2B6BCA4F0071F68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43B094312B6BCA4F0071F68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436FA48F2B88FDC20041084C /* TOOTConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TOOTutils/TOOTutils.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TOOTutils/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XK724N8WG;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					NO_OPENSSL,
+					"BSD=1",
+					"_FILE_OFFSET_BITS=64",
+					"_LARGEFILE_SOURCE=1",
+					"HAVE_SOCKADDR_LEN=1",
+					"SOCKLEN_T=socklen_t",
+					NEED_XLOCALE_H,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TOOTutils/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App want to use bluetooth to scan ble device....";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We want to use local network for slave device discovering....";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App want use location information....";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App want always use loction information....";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App want use location information....";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App want to use Microphone....";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tootzoe.TOOTutils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/src/TOOTutils-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43B094322B6BCA4F0071F68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436FA48F2B88FDC20041084C /* TOOTConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TOOTutils/TOOTutils.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TOOTutils/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XK724N8WG;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NO_OPENSSL,
+					"BSD=1",
+					"_FILE_OFFSET_BITS=64",
+					"_LARGEFILE_SOURCE=1",
+					"HAVE_SOCKADDR_LEN=1",
+					"SOCKLEN_T=socklen_t",
+					NEED_XLOCALE_H,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TOOTutils/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App want to use bluetooth to scan ble device....";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We want to use local network for slave device discovering....";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App want use location information....";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App want always use loction information....";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App want use location information....";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App want to use Microphone....";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tootzoe.TOOTutils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/src/TOOTutils-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		433224772B810755005FA62E /* Build configuration list for PBXNativeTarget "TOOTutilMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433224782B810755005FA62E /* Debug */,
+				433224792B810755005FA62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B0941D2B6BCA4C0071F68B /* Build configuration list for PBXProject "TOOTutils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B0942E2B6BCA4F0071F68B /* Debug */,
+				43B0942F2B6BCA4F0071F68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B094302B6BCA4F0071F68B /* Build configuration list for PBXNativeTarget "TOOTutils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B094312B6BCA4F0071F68B /* Debug */,
+				43B094322B6BCA4F0071F68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		433224622B810601005FA62E /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emqx/CocoaMQTT.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.8;
+			};
+		};
+		437F3D1C2BAC9726005496C9 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+		439F50872B94AE7D0097FA39 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.21.0;
+			};
+		};
+		439F50922B95C8850097FA39 /* XCRemoteSwiftPackageReference "google-auth-library-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleapis/google-auth-library-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		433224632B81060E005FA62E /* CocoaMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 433224622B810601005FA62E /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTT;
+		};
+		433224842B8107E5005FA62E /* CocoaMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 433224622B810601005FA62E /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTT;
+		};
+		437F3D1D2BAC9726005496C9 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 437F3D1C2BAC9726005496C9 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		437F3D1F2BAC9726005496C9 /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 437F3D1C2BAC9726005496C9 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		437F3D212BAC9726005496C9 /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 437F3D1C2BAC9726005496C9 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		439F50882B94AE7D0097FA39 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 439F50872B94AE7D0097FA39 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		439F50932B95C8850097FA39 /* OAuth2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 439F50922B95C8850097FA39 /* XCRemoteSwiftPackageReference "google-auth-library-swift" */;
+			productName = OAuth2;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 43B0941A2B6BCA4C0071F68B /* Project object */;
+}
